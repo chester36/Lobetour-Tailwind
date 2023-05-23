@@ -1217,6 +1217,7 @@ video {
 
 .faq__question h4 {
   display: flex;
+  cursor: pointer;
   align-items: center;
   justify-content: space-between;
 }
@@ -1259,6 +1260,14 @@ video {
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgb(4 221 178 / var(--tw-bg-opacity));
+}
+
+.faq__tab__content {
+  display: none;
+}
+
+.faq__tab__content.active {
+  display: block;
 }
 
 .visible {

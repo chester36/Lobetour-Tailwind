@@ -224,7 +224,7 @@
     }
     
     .faq__question h4{
-        @apply flex items-center justify-between;
+        @apply flex items-center justify-between cursor-pointer;
     }
     .faq__question h4 i{
         @apply transition ease-in-out duration-[.5s];
@@ -244,6 +244,13 @@
     .faq__nav li.active{
         @apply bg-cycy rounded-xl;
     }
+    .faq__tab__content{
+        @apply hidden;
+    }
+    .faq__tab__content.active{
+        @apply block;
+    }
+
 }
 
 
